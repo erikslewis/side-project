@@ -1,45 +1,45 @@
 $(function(){
-    $("#show").hide();
+    $("#show1").hide();
     $("#button1").on("click", function(){
-        $("#hide, #show").toggle();
+        $("#hide, #show1").toggle();
     });
   });
 
 $(function(){
-    $("#show").hide();
+    $("#show2").hide();
     $("#button2").on("click", function(){
-    $("#hide, #show").toggle();
+    $("#hide, #show2").toggle();
     });
   });
 
 $(function(){
-    $("#show").hide();
+    $("#show3").hide();
     $("#button3").on("click", function(){
-    $("#hide, #show").toggle();
+    $("#hide, #show3").toggle();
     });
 });
 
     $(function(){
-            $("#show").hide();
+            $("#show4").hide();
             $("#button4").on("click", function(){
-                $("#hide, #show").toggle();
+                $("#hide, #show4").toggle();
             });
             });
             $(function(){
-                $("#show").hide();
+                $("#show5").hide();
                 $("#button5").on("click", function(){
-                $("#hide, #show").toggle();
+                $("#hide, #show5").toggle();
                 });
                });
                 $(function(){
-                    $("#show").hide();
+                    $("#show6").hide();
                     $("#button6").on("click", function(){
-                    $("#hide, #show").toggle();
+                    $("#hide, #show6").toggle();
                     });
                   });
                     $(function(){
-                        $("#show").hide();
+                        $("#show7").hide();
                         $("#button7").on("click", function(){
-                        $("#hide, #show").toggle();
+                        $("#hide, #show7").toggle();
                         });
                       });
