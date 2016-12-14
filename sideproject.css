@@ -1,1 +1,63 @@
-css 
+body{
+  background-color: red;
+
+}
+header{
+  background-color: black;
+  color: blue;
+  text-align: center;
+
+}
+h3{
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+
+}
+h1{
+  text-align: center;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color: blue;
+}
+#button1:hover{
+    background-color: blue;
+  font-size: 22px;
+
+}
+button{
+  font-size: 22px;
+}
+#button2:hover{
+    background-color: blue;
+font-size: 22px;
+}
+#button3:hover{
+    background-color: blue;
+font-size: 22px;
+}
+#button4:hover{
+    background-color: blue;
+font-size: 22px;
+}
+#button5:hover{
+    background-color: blue;
+font-size: 22px;
+}
+#button6:hover{
+    background-color: blue;
+font-size: 22px;
+}
+#button7:hover{
+    background-color: blue;
+font-size: 22px;
+}
+
+img{
+  height: 140px;
+  width: 140px;
+}

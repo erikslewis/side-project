@@ -19,7 +19,7 @@ $(function(){
     });
 });
 
-    $(function(){
+$(function(){
             $("#show4").hide();
             $("#button4").on("click", function(){
                 $("#hide, #show4").toggle();
