@@ -69,22 +69,23 @@ img{
 
 
 h1 {
-    width: 100px;
-    height: 100px;
+    width: 375px;
+    height: 35px;
     background-color: red;
     position: relative;
+
     /* Safari 4.0 - 8.0 */
     -webkit-animation-name: example;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 7s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     /* Standard syntax */
     animation-name: example;
     animation-duration: 5s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    animation-delay: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -92,17 +93,17 @@ h1 {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
+    25%  {background-color:yellow; left:590px; top:0px;}
+    50%  {background-color:blue; left:590px; top:25px;}
+    75%  {background-color:yellow; left:0px; top:25px;}
     100% {background-color:red; left:0px; top:0px;}
 }
 
 /* Standard syntax */
 @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
+    25%  {background-color:yellow; left:590px; top:0px;}
+    50%  {background-color:blue; left:590px; top:25px;}
+    75%  {background-color:yellow; left:0px; top:25px;}
     100% {background-color:red; left:0px; top:0px;}
 }
