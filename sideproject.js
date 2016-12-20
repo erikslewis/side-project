@@ -13,13 +13,13 @@ var timer = {
 
   updateTime: function updateTime(){
     this.seconds++;
-    this.clock.timer.text('Time elapsed: ' + this.seconds);
+    this.clock.timer.text('TIME ELAPSED: ' + this.seconds);
   },
 
   setupListeners: function () {
     this.clock.start.on('click', function() {
       console.log('start');
-      this.clock.timer.text('Time elapsed: ' + this.seconds);
+      this.clock.timer.text('TIME ELAPSED: ' + this.seconds);
       if (this.run === false){
         this.timerId = setInterval(this.updateTime.bind(this), 1000);
         this.run = true;
@@ -36,7 +36,7 @@ var timer = {
       console.log('reset ' + this.seconds);
       clearInterval(this.timerId);
       this.run = false;
-      this.clock.timer.text('Stop Watch');
+      this.clock.timer.text('STOP WATCH');
     }.bind(this));
   }
 }

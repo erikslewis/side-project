@@ -1,5 +1,5 @@
 body{
-  background-color: red;
+  background-color: black;
 
 }
 header{
@@ -10,16 +10,51 @@ header{
 }
 h3{
   text-align: center;
+  color: black;
+  min-width: 375px;
+  background-color: black;
+  padding: 10px;
+  margin: 40px;
+  box-sizing: border-box;
+  border: 15px inset;
+  border-radius: 100px;
+  border-top-color: blue;
+  border-left-color: silver;
+  border-right-color: rgba(225, 225, 225, .5);
+  border-bottom-color: blue;
 
+
+}
+h4{
+  background-color: blue;
+  text-align: center;
+  color: yellow;
+  border-radius: 15px;
+  text-decoration: underline;
 }
 h2{
   text-align: center;
   text-decoration: underline;
+  color: silver;
+  min-width: 375px;
+  background-color: black;
+  padding: 10px;
+  margin: 40px;
+  box-sizing: border-box;
+  border: 15px inset;
+  border-radius: 100px;
+  border-top-color: blue;
+  border-left-color: silver;
+  border-right-color: rgba(225, 225, 225, .5);
+  border-bottom-color: blue;
 
 }
 h1{
   text-align: center;
   text-decoration: underline;
+  color: silver;
+  display: inline-block;
+  border-radius: 15px;
 }
 footer{
   text-align: center;
@@ -29,34 +64,62 @@ footer{
 #button1:hover{
     background-color: blue;
   font-size: 22px;
+    animation: pulse .5s infinite;
+    -webkit-text-stroke: 2px blue;
 
 }
 button{
   font-size: 22px;
+  background-color: blue;
+  color: black;
+  width: 200px;
+  border-radius: 15px;
+  animation: pulse 10s infinite;
+  -webkit-text-stroke: 2px silver;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 50%;
+
 }
 #button2:hover{
     background-color: blue;
 font-size: 22px;
+  animation: pulse .4s infinite;
+    -webkit-text-stroke: 2px blue;
 }
 #button3:hover{
     background-color: blue;
 font-size: 22px;
+  animation: pulse .5s infinite;
+  -webkit-text-stroke: 2px blue;
+
 }
 #button4:hover{
     background-color: blue;
 font-size: 22px;
+  animation: pulse .5s infinite;
+  -webkit-text-stroke: 2px blue;
 }
 #button5:hover{
     background-color: blue;
 font-size: 22px;
+  animation: pulse .5s infinite;
+  -webkit-text-stroke: 2px blue;
+
 }
 #button6:hover{
     background-color: blue;
 font-size: 22px;
+  animation: pulse .5s infinite;
+  -webkit-text-stroke: 2px blue;
+
 }
 #button7:hover{
     background-color: blue;
 font-size: 22px;
+  animation: pulse .5s infinite;
+
+    -webkit-text-stroke: 2px blue;
 }
 
 img{
@@ -69,10 +132,15 @@ img{
 
 
 h1 {
-    width: 375px;
+    width: 550px;
     height: 35px;
-    background-color: red;
+    background-color: blue;
     position: relative;
+    text-align: center;
+    justify-content: center;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 10s infinite alternate;
+
 
     /* Safari 4.0 - 8.0 */
     -webkit-animation-name: example;
@@ -92,18 +160,117 @@ h1 {
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:590px; top:0px;}
-    50%  {background-color:blue; left:590px; top:25px;}
-    75%  {background-color:yellow; left:0px; top:25px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:black; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:25px;}
+    75%  {background-color:black; left:200px; top:25px;}
+    100% {background-color:blue; left:200px; top:0px;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:590px; top:0px;}
-    50%  {background-color:blue; left:590px; top:25px;}
-    75%  {background-color:yellow; left:0px; top:25px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:black; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:25px;}
+    75%  {background-color:black; left:-200px; top:25px;}
+    100% {background-color:blue; left:-200px; top:0px;}
+}
+
+div.controls{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  min-width: 375px;
+  background-color: black;
+  padding: 10px;
+  margin: 40px;
+  box-sizing: border-box;
+  border: 15px inset;
+  border-radius: 100px;
+  border-top-color: blue;
+  border-left-color: silver;
+  border-right-color: rgba(225, 225, 225, .5);
+  border-bottom-color: blue;
+
+
+}
+
+#timer{
+  text-align: center;
+position: relative;
+font-size: 40px;
+color: yellow;
+text-decoration: underline;
+background-color: blue;
+border-radius: 15px;
+
+
+
+
+
+
+}
+
+#reset:hover{
+  background-color: blue;
+  font-size: 30px;
+    animation: pulse .5s infinite;
+    -webkit-text-stroke: 2px yellow;
+
+}
+
+#pause:hover{
+  background-color: blue;
+  font-size: 30px;
+  animation: pulse .5s infinite;
+  -webkit-text-stroke: 2px yellow;
+}
+
+#start:hover{
+  background-color: blue;
+  font-size: 30px;
+  animation: pulse .5s infinite;
+  -webkit-text-stroke: 2px yellow;
+
+
+}
+
+div#hide{
+  text-align: center;
+
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 4px 4px 3px rgba(255, 255, 255, .3);
+    background-color: blue;
+  }
+  25% {
+    text-shadow: 4px 4px 3px rgba(255, 0, 0, .3);
+    background-color: rgba(0, 0, 255, .1);
+  }
+  50% {
+    text-shadow: 4px 4px 3px rgba(55, 55, 55, .3);
+    background-color: rgba(255, 0, 0, .1);
+  }
+  75% {
+    text-shadow: 4px 4px 3px rgba(255, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .1);
+  }
+}*/
+@-webkit-keyframes myfirst {
+ 0%   {background-color:red; left:0px; top:0px;}
+ 25%  {background-color:yellow; left:200px; top:0px;}
+ 50%  {background-color:blue; left:200px; top:20px;}
+ 75%  {background-color:blue; left:0px; top:20px;}
+ 100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+ 0%   {background-color:red; left:0px; top:0px;}
+ 25%  {background-color:yellow; left:200px; top:0px;}
+ 50%  {background-color:blue; left:200px; top:20px;}
+ 75%  {background-color:blue; left:0px; top:20px;}
+ 100% {background-color:red; left:0px; top:20px;}
 }
